@@ -1,0 +1,3 @@
+###Sei Ecosystem
+BYBIT:SEIUSDT
+BYBIT:SEILORUSDT

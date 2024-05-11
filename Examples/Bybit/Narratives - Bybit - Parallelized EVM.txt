@@ -1,0 +1,3 @@
+###Parallelized EVM
+BYBIT:SEIUSDT
+BYBIT:NEONUSDT

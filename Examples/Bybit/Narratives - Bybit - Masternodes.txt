@@ -1,0 +1,3 @@
+###Masternodes
+BYBIT:ZENUSDT
+BYBIT:VICUSDT

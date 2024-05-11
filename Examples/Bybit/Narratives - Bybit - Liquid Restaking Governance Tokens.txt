@@ -1,0 +1,3 @@
+###Liquid Restaking Governance Tokens
+BYBIT:PENDLEUSDT
+BYBIT:ETHFIUSDT

@@ -1,0 +1,3 @@
+###Synthetic Issuer
+BYBIT:SNXUSDT
+BYBIT:UMAUSDT

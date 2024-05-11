@@ -1,0 +1,3 @@
+###Discord Bots
+BYBIT:TOKENUSDT
+BYBIT:CGPTUSDT
