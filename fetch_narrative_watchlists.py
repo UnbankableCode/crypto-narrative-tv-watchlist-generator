@@ -188,16 +188,16 @@ def main(category_limit, coin_limit_per_category, combined_watchlist):
         
         if combined_watchlist:
             filename = f"Narratives - {exchange['name']} - Combined.txt"
-            path = f"Watchlists/{filename}"
+            path = f"Watchlists/{exchange['name']}/{filename}"
             save_to_tradingview_watchlist(path, categorized_tickers)
         else:
             for cat in categorized_tickers:
                 filename = f"Narratives - {exchange['name']} - {cat}.txt"
                 safe_filename = "".join(i for i in filename if i not in "\/:*?<>|")
-                path = f"Watchlists/{safe_filename}"
+                path = f"Watchlists/{exchange['name']}/{safe_filename}"
                 save_to_tradingview_watchlist(path, {cat: categorized_tickers[cat]})
         
-        filename = f"Narratives - {exchange['name']} - Indicies.txt"
+        filename = f"Watchlists/Narratives - {exchange['name']} - Indicies.txt"
         save_to_tradingview_watchlist(filename, tradingview_indexes, is_index=True)
 
     logging.info("Data collection complete")

@@ -160,5 +160,4 @@ cython_debug/
 #.idea/
 
 # Generated files
-/Narratives*.txt
 /Watchlists/
